@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 25px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('library2.png');
+    color: white;
+    font-family: 'Athiti', sans-serif;
+}
+
+
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1 {
+    background-color: rgba(87, 58, 58, 0.26);
+    font-family: 'Athiti', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.bttn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 8px 100px;
+    font-size: 20px;
+    border: 2px solid rgb(95, 52, 52);
+    border-radius: 10px;
+    /* margin: 5px; */
+    cursor: pointer;
+    font-family: 'Athiti', sans-serif;
+}
+
+
+.bttn:hover {
+    background-color: rgb(95, 52, 52);
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 350px;
+}
